@@ -8,8 +8,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Xbim.Common" Version="6.0.445" />
     <PackageReference Include="Xbim.Essentials" Version="6.0.445" />
     <PackageReference Include="Xbim.Ifc4" Version="6.0.445" />
+    <PackageReference Include="Xbim.ModelGeometry.Scene" Version="5.1.437" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Autodesk.IFC.Export.UI">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\AddIns\IFCExporterUI\Autodesk.IFC.Export.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.IFC.Export.UI.resources">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\AddIns\IFCExporterUI\en-US\Autodesk.IFC.Export.UI.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\System.IO.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\System.Linq.DLL</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
